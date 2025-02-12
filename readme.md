@@ -32,33 +32,43 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
+
 This project is aimed at New and Benched FDM employees that are looking to upskill in Typescript and playwright. There are also some key features in this project that will enforce coding standards such as not using console log lines and requiring semi colons at the end of each needed line.
 
 <!-- BUILT WITH -->
+
 ## Built With
+
 This project has been built with Typescript and the Playwright framework. Further tools are ESlint Prettier, Husky and Zod.
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
+
 Please follow these steps to setup the project locally on your own machine.
 
 ### Prerequisites
-* Node version 22.14.1
-* A copy of the Repo
-* Your favourite IDE (Personally I use VSCode)
 
+- Node version 22.14.1
+- A copy of the Repo
+- Your favourite IDE (Personally I use VSCode)
 
 ### Installation
-Once you have a copy of the Repo and the correct node version installed open your favourite IDE and in the command line run the command ```sh npm install```.
 
+Once you have a copy of the Repo and the correct node version installed open your favourite IDE and in the command line run the command `sh npm install`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Usage -->
+
 ## Usage
-To run this project use the command ```sh npm run test```
+
+To run this project use the command `sh npm run test`
 
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
+
 John Seager, Jan and Ryan for helping get this project started.
