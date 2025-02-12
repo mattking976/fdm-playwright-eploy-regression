@@ -19,5 +19,4 @@ class SUFAData {
     public passwordInput(): string {
         return this.passwordInputLocator;
     }
-
 }

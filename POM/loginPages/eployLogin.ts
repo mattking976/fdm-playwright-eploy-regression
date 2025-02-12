@@ -19,5 +19,4 @@ class EployData {
     public passwordInput(): string {
         return this.passwordInputLocator;
     }
-
 }
