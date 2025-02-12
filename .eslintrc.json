@@ -70,7 +70,7 @@
         "new-parens": "off",
         "newline-per-chained-call": "off",
         "no-array-constructor": "off",
-        "no-console": "warn",
+        "no-console": "error",
         "no-duplicate-imports": "error",
         "no-else-return": "error",
         "no-eval": "error",
