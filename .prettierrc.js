@@ -9,10 +9,14 @@ module.exports = {
     bracketSameLine: false,
     overrides: [
         {
-            files: 'src/**/*.ts',
+            files: 'tests/**/*.ts',
             options: {
                 printWidth: 250,
             },
+            files: 'POM/**/*.ts',
+            options: {
+                printWidth: 250,
+            }
         },
     ],
 };

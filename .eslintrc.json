@@ -48,7 +48,7 @@
             }
         ],
         "curly": ["error", "multi-line"],
-        "eol-last": "off",
+        "eol-last": ["error", "always"],
         "eqeqeq": ["error", "smart"],
         "id-denylist": [
             "error",
