@@ -1,0 +1,34 @@
+{
+  "name": "fdm-playwright-eploy-regression",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prettify": "prettier --config \".prettierrc.js\" --write \"./**/*.{ts,tsx,js,jsx,json,yaml,yml,eslintrc,md}\" ",
+    "test": "npm playwright test",
+    "lint": "eslint --ignore-path .eslintignore --ext .js,.ts,.tsx .",
+    "lintFix": "eslint --fix --ignore-path .eslintignore --ext .js,.ts,.tsx .",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.1",
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-config-standard-with-typescript": "^24.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "lint-staged": "^15.4.3",
+    "prettier": "^3.5.0",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "husky": "^9.1.7",
+    "zod": "^3.24.2"
+  }
+}
