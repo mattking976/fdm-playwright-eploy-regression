@@ -3,10 +3,10 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "prettify": "prettier --config \".prettierrc.js\" --write \"./**/*.{ts,tsx,js,jsx,json,yaml,yml,eslintrc,md}\" ",
+        "prettify": "prettier --config \".prettierrc.js\" --write \"./**/*.{ts,md}\" ",
         "test": "npm playwright test",
-        "lint": "eslint --ignore-path .eslintignore --ext .js,.ts,.tsx .",
-        "lintFix": "eslint --fix --ignore-path .eslintignore --ext .js,.ts,.tsx .",
+        "lint": "eslint --ignore-path .eslintignore --ext .ts .",
+        "lintFix": "eslint --fix --ignore-path .eslintignore --ext .ts .",
         "prepare": "husky"
     },
     "keywords": [],

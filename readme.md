@@ -28,6 +28,7 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#authors">Authors</li>
   </ol>
 </details>
 
@@ -65,7 +66,7 @@ Once you have a copy of the Repo and the correct node version installed open you
 
 ## Usage
 
-When committing changes to this project please make sure that you run the linting by running the commands `sh npm run lint` and `sh npm run prettify` please do this before you commit. Also ensure that all of your tests are passing.
+When committing changes to this project please make sure that you run the linting by running the commands `sh npm run lintFix` and `sh npm run prettify` please do this before you commit. Also ensure that all of your tests are passing.
 
 Prior to running you will need access to multiple areas and will need logins for these areas. You will need to add these details to your .env file along with the links to these areas. The test suite will fail to start.
 
@@ -76,3 +77,9 @@ To run this project use the command `sh npm run test`.
 ## Acknowledgments
 
 John Seager, Jan Ayag and Ryan Ho for helping get this project started.
+
+<!-- Authors -->
+
+## Authors
+
+Matthew King.
