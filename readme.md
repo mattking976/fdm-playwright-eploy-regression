@@ -60,7 +60,6 @@ Please follow these steps to setup the project locally on your own machine.
 
 Once you have a copy of the Repo and the correct node version installed open your favourite IDE and in the command line run the command `npm install`. Next you will need to install the playwright browsers to do this you need to run the command `sh npx playwright install`.
 
-
 <!-- Usage -->
 
 ## Usage
