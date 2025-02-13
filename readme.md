@@ -52,13 +52,13 @@ Please follow these steps to setup the project locally on your own machine.
 
 ### Prerequisites
 
-- Node version 22.14.1
+- Node version 22.14.1 (LTS)
 - A copy of the Repo
 - Your favourite IDE (Personally I use VSCode)
 
 ### Installation
 
-Once you have a copy of the Repo and the correct node version installed open your favourite IDE and in the command line run the command `sh npm install`.
+Once you have a copy of the Repo and the correct node version installed open your favourite IDE and in the command line run the command `sh npm install`. Next you will need to install the playwright browsers to do this you need to run the command `sh npx playwright install`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
