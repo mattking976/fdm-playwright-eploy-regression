@@ -5,6 +5,7 @@
     "scripts": {
         "prettify": "prettier --config \".prettierrc.js\" --write \"./**/*.{ts,md}\" ",
         "test": "npx playwright test",
+        "test-headed": "npx playwright test --headed --project chromium",
         "lint": "eslint --ignore-path .eslintignore --ext .ts .",
         "lintFix": "eslint --fix --ignore-path .eslintignore --ext .ts .",
         "prepare": "husky"
