@@ -58,7 +58,7 @@ Please follow these steps to setup the project locally on your own machine.
 
 ### Installation
 
-Once you have a copy of the Repo and the correct node version installed open your favourite IDE and in the command line run the command `sh npm install`. Next you will need to install the playwright browsers to do this you need to run the command `sh npx playwright install`.
+Once you have a copy of the Repo and the correct node version installed open your favourite IDE and in the command line run the command `npm install`. Next you will need to install the playwright browsers to do this you need to run the command `sh npx playwright install`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -66,11 +66,11 @@ Once you have a copy of the Repo and the correct node version installed open you
 
 ## Usage
 
-When committing changes to this project please make sure that you run the linting by running the commands `sh npm run lintFix` and `sh npm run prettify` please do this before you commit. Also ensure that all of your tests are passing.
+When committing changes to this project please make sure that you run the linting by running the commands `npm run lintFix` and `npm run prettify` please do this before you commit. Also ensure that all of your tests are passing.
 
 Prior to running you will need access to multiple areas and will need logins for these areas. You will need to add these details to your .env file along with the links to these areas. The test suite will fail to start.
 
-To run this project use the command `sh npm run test`.
+To run this project use the command `npm run test`.
 
 <!-- ACKNOWLEDGMENTS -->
 
