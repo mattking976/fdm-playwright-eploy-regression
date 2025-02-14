@@ -1,12 +1,15 @@
 // this is the zod file for checking required env vars are present.
-import z, { ZodObject } from 'zod';
+import dotenv from 'dotenv';
+import z from 'zod';
+
+dotenv.config();
 
 const envSchema = z.object({
     eployUsername: z.string(),
     eployPassword: z.string(),
     eployENV: z.string(),
     sufaUsername: z.string(),
-    sufaPasword: z.string(),
+    sufaPassword: z.string(),
     sufaENV: z.string(),
 });
 
@@ -18,3 +21,5 @@ const envVars = envSchema.parse({
     sufaPassword: process.env.sufaPassword,
     sufaENV: process.env.sufaENV,
 });
+
+export default envVars;
