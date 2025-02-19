@@ -12,6 +12,7 @@ export class EployData {
     private passwordInputLocator: string = 'ctl00_main_ctl02_txtPassword';
     private submitButtonLocatior: string = 'ctl00_main_ctl02_btnSubmit';
     private eployLogoLocator: string = 'ctl00_AdminTopBar1_imgLogo';
+    private longTimeout: number = 7000;
 
     // private constructor for singleton class
     private constructor() {}
@@ -38,5 +39,9 @@ export class EployData {
 
     public eployHomeLogo(): string {
         return this.eployLogoLocator;
+    }
+
+    public eployLongTimeout(): number {
+        return this.longTimeout;
     }
 }

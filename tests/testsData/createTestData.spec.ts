@@ -35,6 +35,6 @@ test.describe('A tool for creating test data', () => {
         const logo = page.getByTestId(eployData.eployHomeLogo());
 
         // Page load times are large so having to push timout to cope with this
-        await expect(logo).toBeVisible({ timeout: 7000 });
+        await expect(logo).toBeVisible({ timeout: eployData.eployLongTimeout() });
     });
 });
