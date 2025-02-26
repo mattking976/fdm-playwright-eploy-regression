@@ -4,6 +4,7 @@ export class EployNavigationData {
     private ukGradId: number = 122;
     private UkExForceId: number = 41;
     private UkReturnId: number = 851;
+    private GerID: number = 1121;
 
     constructor() {}
 
@@ -25,5 +26,9 @@ export class EployNavigationData {
 
     public get ukReturnVacId(): number {
         return this.UkReturnId;
+    }
+
+    public get gerVacId(): number {
+        return this.GerID;
     }
 }

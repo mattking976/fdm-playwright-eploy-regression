@@ -12,7 +12,7 @@ export class EployData {
     private eployLogoLocator: string = 'ctl00_AdminTopBar1_imgLogo';
     private locationCodeSearch: string = 'QuickSearchKeyword';
     private quickSearchPanel: string = 'QuickSearchPanel';
-    private longTimeout: number = 7000;
+    private longTimeout: number = 15000; // 15 second timeout for the long page load times
 
     // private constructor for singleton class
     private constructor() {}

@@ -42,9 +42,9 @@ test.describe('A tool for creating test data', () => {
         await expect(logo).toBeVisible({ timeout: eployData.eployLongTimeout });
 
         // fill the chosen area id and press the enter key.
-        await quickSearch.fill(eployNavigationData.ukGradVacId.toString());
+        await quickSearch.fill(eployNavigationData.gerVacId.toString());
         await quickSearch.press('Enter');
 
-        await expect(quickSearchPanel).toBeVisible();
+        await expect(quickSearchPanel).toBeHidden();
     });
 });
